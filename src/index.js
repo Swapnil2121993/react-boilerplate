@@ -4,7 +4,7 @@ import './style/main.less';
 
 class Welcome extends React.Component {
     render () {
-        return <h2>React Configuration</h2>;
+        return <h2>Hey Swapnil</h2>;
     }
 }
 
