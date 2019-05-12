@@ -1,11 +1,15 @@
+import 'materialize-css/dist/css/materialize.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Logo from './components/Logo';
 import './style/main.less';
 
-class Welcome extends React.Component {
-    render () {
-        return <h2>Hey Swapnil</h2>;
-    }
+function RenderApplication () {
+    return (
+        <div className="app-container">
+            <Logo />
+        </div>
+    );
 }
 
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+ReactDOM.render(<RenderApplication />, document.getElementById('root'));
