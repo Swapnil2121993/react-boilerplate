@@ -7,7 +7,6 @@ function SignInForm () {
     return (
         <div className="signin-form-container">
             <Logo />
-            <Button />
             <div className="signin-form-wrapper">
                 <h2>Welcome Back !</h2>
                 <label>
